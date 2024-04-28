@@ -31,4 +31,4 @@ function sumArray(array) {
     .slice(1, -1)
     .reduce((prev, curr) => prev + curr, 0);
 }
-console.log(sumArray([1, 3, 4, 5, 6])); //14
+console.log(sumArray([1, 3, 4, 5, 6])); //12
