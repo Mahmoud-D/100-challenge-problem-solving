@@ -1,5 +1,6 @@
 /* Write a function that returns a string in which firstname is swapped with last name.*/
 
+<<<<<<< HEAD
 /* 
 problem analysis:
 -1 We have a string
@@ -14,6 +15,8 @@ problem analysis:
 -4 Return the string
 */
 
+=======
+>>>>>>> 648e99c0b678e8105151a661914a436bf60c0234
 function nameShuffler(str) {
   return str.split(" ").reverse().join(" ");
 }
